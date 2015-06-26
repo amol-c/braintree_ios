@@ -43,8 +43,8 @@ target 'Braintree-Dev' do
   pod 'CardIO'
   pod 'NSURL+QueryDictionary', '~> 1.0'
   pod 'PureLayout'
-  pod 'UIActionSheet+Blocks'
-  pod 'UIAlertView+Blocks'
+  pod 'UIActionSheet+Blocks', :git => 'https://github.com/ryanmaxwell/UIActionSheet-Blocks.git'
+  pod 'UIAlertView+Blocks', :git => 'https://github.com/ryanmaxwell/UIAlertView-Blocks.git'
   pod 'FLEX'
   pod 'InAppSettingsKit'
 end

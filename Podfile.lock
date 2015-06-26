@@ -72,8 +72,8 @@ PODS:
   - OHHTTPStubs/Core (3.1.5)
   - PureLayout (1.0.1)
   - Specta (0.3.0.beta1)
-  - UIActionSheet+Blocks (0.8.1)
-  - UIAlertView+Blocks (0.8.1)
+  - UIActionSheet+Blocks (0.9)
+  - UIAlertView+Blocks (0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2)
@@ -94,17 +94,21 @@ DEPENDENCIES:
   - OHHTTPStubs (~> 3.1.0)
   - PureLayout
   - Specta (from `https://github.com/specta/specta.git`, commit `v0.3.0.beta1`)
-  - UIActionSheet+Blocks
-  - UIAlertView+Blocks
+  - UIActionSheet+Blocks (from `https://github.com/ryanmaxwell/UIActionSheet-Blocks.git`)
+  - UIAlertView+Blocks (from `https://github.com/ryanmaxwell/UIAlertView-Blocks.git`)
 
 EXTERNAL SOURCES:
   Braintree:
-    :path: "."
+    :path: .
   KIFViewControllerActions:
     :git: https://github.com/mickeyreiss/KIFViewControllerActions.git
   Specta:
     :commit: v0.3.0.beta1
     :git: https://github.com/specta/specta.git
+  UIActionSheet+Blocks:
+    :git: https://github.com/ryanmaxwell/UIActionSheet-Blocks.git
+  UIAlertView+Blocks:
+    :git: https://github.com/ryanmaxwell/UIAlertView-Blocks.git
 
 CHECKOUT OPTIONS:
   KIFViewControllerActions:
@@ -113,10 +117,16 @@ CHECKOUT OPTIONS:
   Specta:
     :commit: v0.3.0.beta1
     :git: https://github.com/specta/specta.git
+  UIActionSheet+Blocks:
+    :commit: ceda80534d913f51a795a12542de92ab0c9e0cc6
+    :git: https://github.com/ryanmaxwell/UIActionSheet-Blocks.git
+  UIAlertView+Blocks:
+    :commit: 3c0a887ab61fe7f42bbd13aef2c366519c731682
+    :git: https://github.com/ryanmaxwell/UIAlertView-Blocks.git
 
 SPEC CHECKSUMS:
   AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
-  Braintree: cfbd7da2d3935811bd4cf93a1bab5864dfa32050
+  Braintree: 4be8e4e9fdd1a68422a2fa7dea10602c7128b163
   CardIO: 4c441cc8e63547fb282d64c2b77d4b40e04b030a
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
   FLEX: a58e34e78f83547b9aceedd53a8e8f85286682ec
@@ -130,7 +140,7 @@ SPEC CHECKSUMS:
   OHHTTPStubs: 5cb8c4e590851d42cfb02fb6269d5404cfa2e9c3
   PureLayout: 27e15b149da0e66de4a8b7d6561ba2828806256a
   Specta: d2158a483ad179e5f8d3a29f75ff4fc0ff6fab16
-  UIActionSheet+Blocks: 7fdab45fc8f15ac2dc1cd65af1470746600b5f46
-  UIAlertView+Blocks: 45c3d3b7194906702d3e9a14c7ece5581505646d
+  UIActionSheet+Blocks: e180b7dad0a721ab7f212ac9742af799008bb358
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.37.2
